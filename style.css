@@ -1,0 +1,16 @@
+.index {
+    width: 100px;
+    height: 100px;
+    background: rgb(35, 10, 70);
+    position: relative;
+    animation: secondmove 2s 4;
+    animation-delay: 1s;
+     animation-direction: alternate;   /*normal, reverse,*/
+}
+@keyframes secondmove{
+    0% {background:yellow; left: 0px; top: 0px;}
+    25% {background:blue; left: 200px; top: 0px;}
+    50%{background:black; left: 200px; top: 200px;}
+    75%{background:pink; left: 0px; top: 200px;}
+    100%{background:green; left: 0px; top: 0px;}
+} 
